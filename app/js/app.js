@@ -4,9 +4,7 @@
 // Declare app level module which depends on filters, and services
 angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives']).
   config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: MyCtrl1});
-    $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: MyCtrl2});
-
+    $routeProvider.when('/', {templateUrl: 'tutorials/main.html', controller: MyCtrl1});
 
     $routeProvider.when('/getting-started/manifest', {templateUrl: 'tutorials/getting-started/manifest.html', controller: MyCtrl2});
     $routeProvider.when('/getting-started/arguments', {templateUrl: 'tutorials/getting-started/arguments.html', controller: MyCtrl2});
@@ -41,4 +39,5 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives'])
     $routeProvider.when('/experimental/polymaps', {templateUrl: 'tutorials/experimental/polymaps.html', controller: MyCtrl2});
     $routeProvider.when('/experimental/google_maps', {templateUrl: 'tutorials/experimental/google_maps.html', controller: MyCtrl2});
 
+    $routeProvider.otherwise({redirectTo: '/'});
   }]);

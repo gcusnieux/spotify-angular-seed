@@ -18,71 +18,7 @@
 <body>
 
 <div id="wrapper">
-    <div id="index" class="section">
-        <h1>Spotify Apps with Angular seed app: v<span app-version></span></h1>
-        <em style="padding-left:370px;">with Angular seed app: v<span app-version></span></em>
-        <img src="img/spotify-char.png" class="right"/>
-        <h4>Getting started</h4>
-        <ul>
-            <li><a href="#/getting-started/manifest">Creating your manifest file</a></li>
-            <li><a href="#/getting-started/arguments">Handling arguments and creating navigational tabs</a></li>
-            <li><a href="#/getting-started/drag-drop">Dragging and dropping content into an app</a></li>
-            <li><a href="#/getting-started/share">Show "Share" popup</a></li>
-
-        </ul>
-        <h4>UI</h4>
-        <ul>
-            <li><a href="#/ui/buttons">Using standard components for buttons</a></li>
-            <li><a href="#/ui/list-view">Showing a list of tracks</a></li>
-        </ul>
-
-        <h4>Playing music</h4>
-        <ul>
-            <li><a href="#/playing/play-track">Play a single track</a></li>
-            <li><a href="#/playing/play-list-tracks">Play a list of tracks</a></li>
-            <li><a href="#/playing/current-track">Get the currently playing track</a></li>
-            <li><a href="#/playing/click-to-play">Create a play/pause button with an HTML element</a></li>
-            <li><a href="#/playing/skip-track">Skip to the next or previous track</a></li>
-            <li><a href="#/playing/star-track">Star and unstar a track</a></li>
-            <li><a href="#/playing/user-toplist">Get a user's top tracks</a></li>
-        </ul>
-
-        <h4>Searching</h4>
-        <ul>
-            <li><a href="#/search/search">Returning all tracks with a given search query</a></li>
-            <li><a href="#/search/search-albums-artist">Search albums for an artist</a></li>
-        </ul>
-
-        <h4>Playlists</h4>
-        <ul>
-            <li><a href="#/playlist/add-track-playlist">Add a track to a playlist</a></li>
-            <li><a href="#/playlist/get-tracks-from-playlist">Get tracks from a playlist URL</a></li>
-            <li><a href="#/playlist/subscribe">Subscribe and unsubscribe from a playlist</a></li>
-            <li><a href="#/playlist/playlist-mosaic">Showing a playlist mosaic image</a></li>
-        </ul>
-
-        <h4>Interacting with Facebook</h4>
-        <ul>
-            <li><a href="#/facebook/facebook-auth">Authenticate a user with Facebook</a></li>
-            <li><a href="#/facebook/facebook-listening-history">Get a user's listening history from Facebook</a></li>
-        </ul>
-
-        <h4>Experimental &amp; Unsupported</h4>
-        <ul>
-            <li><a href="#/tutorials/experimental/twitter.html">Talking to Twitter</a></li>
-            <li><a href="#/tutorials/experimental/echonest.html">Create an EchoNest radio station</a></li>
-            <li><a href="#/tutorials/experimental/polymaps.html">Display a Polymaps object</a></li>
-            <li><a href="#/tutorials/experimental/google_maps.html">Display a Google Maps object</a></li>
-        </ul>
-
-
-        </ul>
-
-    </div>
-
-
     <div ng-view></div>
-
 </div>
 
 
@@ -90,7 +26,9 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
 -->
 
+<script src="lib/jquery.min.js"></script>
 <script src="lib/angular/angular.js"></script>
+<script src="js/mock.js"></script>
 <script src="js/app.js"></script>
 <script src="js/services.js"></script>
 <script src="js/controllers.js"></script>
@@ -102,19 +40,3 @@
 </body>
 </html>
 
-
-<!DOCTYPE html>
-<head>
-    <!-- Spotify CSS files -->
-    <link rel="stylesheet" type="text/css" href="sp://resources/css/eve.css">
-    <link rel="stylesheet" type="text/css" href="sp://resources/css/api.css">
-    <link rel="stylesheet" type="text/css" href="sp://resources/css/player.css">
-    <link rel="stylesheet" type="text/css" href="sp://resources/css/list.css">
-
-    <!-- Project CSS files -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/github.css">
-</head>
-<body>
-</body>
-</html>
