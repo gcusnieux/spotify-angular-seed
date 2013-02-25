@@ -122,6 +122,7 @@ fetch the changes and merge them into your project with git.
       test.bat          --> autotests unit tests with Testacular (windows)
       test.sh           --> autotests unit tests with Testacular (*nix)
       web-server.js     --> simple development webserver based on node.js
+      deploy.sh         --> deploy app in Spotify
 
     test/               --> test source files and libraries
       e2e/              -->
