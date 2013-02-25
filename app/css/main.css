@@ -9,7 +9,7 @@ h3 + div {margin: 0 0 35px;}
 
 
 /* Headers */
-#index h1 {background-image:url('/img/spotify-apps-tutorial.png');background-repeat: no-repeat;width:600px;height:83px;text-indent:-9999em;}
+#index h1 {background-image:url('../img/spotify-apps-tutorial.png');background-repeat: no-repeat;width:600px;height:83px;text-indent:-9999em;}
 
 
 /* Text */

@@ -8,6 +8,7 @@ echo "-------------------------------------------------------------------"
 
 
 killall spotify
+rm -r ~/Spotify/$1
 cp -r $BASE_DIR/../app ~/Spotify/$1
 spotify >/dev/null 2>&1 &
 
